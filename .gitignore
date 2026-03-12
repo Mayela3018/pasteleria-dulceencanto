@@ -1,0 +1,16 @@
+# Backend
+backend/db.sqlite3
+backend/__pycache__/
+backend/tienda/__pycache__/
+backend/config/__pycache__/
+backend/media/
+backend/*.pyc
+backend/tienda/migrations/__pycache__/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# General
+.env
+*.env
