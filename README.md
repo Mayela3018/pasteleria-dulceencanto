@@ -203,9 +203,8 @@ Abrir en el navegador: `http://localhost:5173`
 ---
 
 ## 👩‍💻 Autora
-Maye
-
-**Laboratorio 13 y 15** — Estructura y Seguridad de E-commerce
+Mayela
+Estructura y Seguridad de E-commerce
 
 ---
 
