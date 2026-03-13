@@ -1,5 +1,9 @@
 from pathlib import Path
 from datetime import timedelta
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -16,12 +20,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Third party
     'rest_framework',
     'corsheaders',
     'django_filters',
     'rest_framework_simplejwt',
-    # Local
     'tienda',
 ]
 
@@ -93,5 +95,5 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 20,
 }
 
-STRIPE_SECRET_KEY = 'sk_test_51T9tWcJTUBOUrwm2DbCOfknlBsZjmep2J7qswjyvcVQyZS8qdZIiLKHSDg7W46BS5iUWYReoxDQ7GzHm9GSldlMY00gh0O06hi'
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51T9tWcJTUBOUrwm2AdBF5imSUOTLvYyFbDTO86QbOiG6PF5DGzgd6mgXImbOjR1Nyko7wzZjPIuZDR0PiVuwrLvR00tbRPjLsX'
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY')
+STRIPE_PUBLISHABLE_KEY = os.getenv('STRIPE_PUBLISHABLE_KEY')
