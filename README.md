@@ -204,8 +204,7 @@ Abrir en el navegador: `http://localhost:5173`
 
 ## 👩‍💻 Autora
 Mayela
+
 Estructura y Seguridad de E-commerce
 
----
 
-*🎂 La Dulce Tentación — Hecho con amor para cada ocasión especial*
